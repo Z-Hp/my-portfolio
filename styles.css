@@ -28,3 +28,11 @@ h6 {
   line-height: 2;
   color: rgb(64 64 108);
 }
+.hero .btn-contact {
+  background: #6c63ff;
+  border-radius: 4px;
+  color: white;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 12px 20px;
+}
