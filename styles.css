@@ -1,4 +1,27 @@
+:root {
+  --headings-font: "Playfair Display", serif;
+  --context-font: "Poppins", sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--headings-font);
+  font-weight: 700;
+}
 .hero {
   background-color: #f9f7fe;
   text-align: center;
+}
+.hero h2 {
+  font-size: 40px;
+  font-weight: 400;
+}
+.hero h1 {
+  font-size: 80px;
+}
+.hero p {
+  font-family: var(--context-font);
 }
