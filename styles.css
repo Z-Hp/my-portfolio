@@ -1,6 +1,9 @@
 :root {
-  --headings-font: "Playfair Display", serif;
-  --context-font: "Poppins", sans-serif;
+  --headings-font-family: "Playfair Display", serif;
+  --context-font-family: "Poppins", sans-serif;
+  --primary-color: #f9f7fe;
+  --secondary-color: #6c63ff;
+  --muted-color: rgb(64 64 108);
 }
 h1,
 h2,
@@ -8,11 +11,11 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: var(--headings-font);
+  font-family: var(--headings-font-family);
   font-weight: 700;
 }
 .hero {
-  background-color: #f9f7fe;
+  background-color: var(--primary-color);
   text-align: center;
   padding: 160px 20px;
 }
@@ -24,12 +27,12 @@ h6 {
   font-size: 80px;
 }
 .hero p {
-  font-family: var(--context-font);
+  font-family: var(--context-font-family);
   line-height: 2;
-  color: rgb(64 64 108);
+  color: var(--muted-color);
 }
 .hero .btn-contact {
-  background: #6c63ff;
+  background: var(--secondary-color);
   border-radius: 4px;
   color: white;
   font-size: 18px;
