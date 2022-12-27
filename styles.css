@@ -48,12 +48,14 @@ h6 {
   font-size: 18px;
 }
 img {
-  width: 600px;
+  /* width: 600px; */
   border-radius: 15px;
+  padding: 40px;
+  background-color: var(--primary-color);
 }
 .headings {
   font-family: var(--headings-font-family);
-  font-size: 54px;
+  font-size: 45px;
   font-weight: 700;
 }
 .tools span {
