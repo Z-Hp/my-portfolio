@@ -3,8 +3,11 @@
   --context-font-family: "Poppins", sans-serif;
   --primary-color: #f9f7fe;
   --secondary-color: #6c63ff;
+  --accent-color: #6c63ff;
+  --main-color: #232323;
   --muted-color: rgb(64 64 108);
 }
+
 h1,
 h2,
 h3,
@@ -83,6 +86,8 @@ img {
   background-color: var(--secondary-color);
 }
 
+/* ****RESPONSIVENESS OF MAIN PAGE**** */
+
 @media (max-width: 820px) {
   .hero h2 {
     font-size: 23px;
@@ -109,5 +114,81 @@ img {
     margin-bottom: 10px;
     display: flex;
     justify-content: center;
+  }
+}
+
+/* *************************************************** */
+/* CONTACT PAGE */
+/* *************************************************** */
+
+main {
+  padding: 100px 0px;
+}
+.contact-container {
+  padding: 40px;
+  background-color: var(--primary-color);
+}
+#subject {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid var(--main-color);
+  border-radius: 10px;
+  resize: vertical;
+}
+.inputs {
+  border: 1px solid var(--main-color);
+  border-radius: 10px;
+  padding: 5px;
+}
+.submit-btn {
+  color: var(--primary-color);
+  font-weight: bold;
+  padding: 5px 15px;
+  background: var(--secondary-color);
+  border: 2px solid var(--main-color);
+}
+.submit-btn:hover {
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+}
+.contact-area {
+  margin-bottom: 35px;
+}
+.contact-area p {
+  font-size: 42px;
+  color: var(--main-color);
+}
+.contact-area i {
+  color: var(--accent-color);
+  font-size: 20px;
+  margin-inline: 5px;
+}
+.contact-area a {
+  text-decoration: none;
+}
+.contact-area a span {
+  font-size: 20px;
+  color: var(--main-color);
+}
+.contact-area a span:hover {
+  color: var(--muted-color);
+}
+
+/* ****RESPONSIVENESS OF CONTACT PAGE**** */
+
+@media (max-width: 820px) {
+  main {
+    padding: 50px 20px;
+  }
+
+  .contact-container {
+    padding: 0;
+  }
+  .contact-area p {
+    font-size: 32px;
+  }
+
+  .contact-area a span {
+    font-size: 16px;
   }
 }
