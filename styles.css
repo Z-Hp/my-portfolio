@@ -215,3 +215,16 @@ main {
     font-size: 16px;
   }
 }
+
+/* *************************************************** */
+/* WORK PAGE */
+/* *************************************************** */
+.work-image img {
+  border-radius: 25px;
+  padding: 0;
+}
+.weatherapp p {
+  color: #222525d7;
+  font-size: 20px;
+  font-family: var(--context-font-family);
+}
