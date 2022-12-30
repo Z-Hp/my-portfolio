@@ -228,3 +228,31 @@ main {
   font-size: 20px;
   font-family: var(--context-font-family);
 }
+
+/* *************************************************** */
+/* FOOTER */
+/* *************************************************** */
+footer {
+  font-family: var(--context-font-family);
+  text-align: center;
+  padding: 30px;
+  background-color: var(--primary-color);
+}
+footer p {
+  font-size: 34px;
+  color: var(--muted-color);
+}
+footer a {
+  text-decoration: none;
+}
+.email {
+  font-size: 26px;
+  text-decoration: none;
+}
+
+.social-media {
+  font-size: 28px;
+}
+.social-media a {
+  padding: 10px;
+}
