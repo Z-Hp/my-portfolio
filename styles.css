@@ -7,6 +7,28 @@
   --main-color: #232323;
   --muted-color: rgb(64 64 108);
 }
+/* *************************************************** */
+/* HEADER */
+/* *************************************************** */
+
+nav {
+  padding: 20px 0px;
+  background-color: white;
+}
+.navbar-brand {
+  font-size: 35px;
+}
+.navbar-nav {
+  font-size: 18px;
+  font-family: var(--context-font-family);
+}
+.navbar-contact {
+  background-color: var(--secondary-color);
+}
+
+/* *************************************************** */
+/* HERO */
+/* *************************************************** */
 
 h1,
 h2,
