@@ -7,31 +7,20 @@
   --main-color: #232323;
   --muted-color: rgb(64 64 108);
 }
-/* *************************************************** */
-/* HEADER */
-/* *************************************************** */
-
-/* nav {
-  padding: 20px 0px;
-  background-color: white;
+main {
+  padding: 100px 0px;
 }
-.navbar-brand {
-  font-size: 35px;
-}
-.navbar-nav {
-  font-size: 18px;
-  font-family: var(--context-font-family);
-}
-.navbar-contact {
-  background-color: var(--secondary-color);
-} */
-
 /* *************************************************** */
 /* HEADER */
 /* *************************************************** */
 nav {
   padding: 20px 0;
   font-size: 18px;
+}
+nav .brand {
+  font-size: 35px;
+  color: black;
+  font-family: var(--headings-font-family);
 }
 nav a {
   text-decoration: none;
@@ -54,6 +43,14 @@ nav li {
 nav li.active a,
 nav li a:hover {
   color: var(--secondary-color);
+}
+@media (max-width: 600px) {
+  nav {
+    font-size: 14px;
+  }
+  .brand {
+    display: none;
+  }
 }
 
 /* *************************************************** */
@@ -175,10 +172,6 @@ img {
 /* *************************************************** */
 /* CONTACT PAGE */
 /* *************************************************** */
-
-main {
-  padding: 100px 0px;
-}
 .contact-container {
   padding: 40px;
 }
